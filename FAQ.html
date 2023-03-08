@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faq</title>
+    <link rel="stylesheet" href="FAQ.css" />
+  </head>
+  <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div class="Titlu"><h1>FAQ</h1></div>
+    <section>
+      <div class="container">
+        <div class="faq">
+          <div class="faq-question" id="question1">
+            <a class="faqlink" href="#question1"
+              >Ce este Coderun?<ion-icon
+                class="arrow-forward-outline"
+                name="arrow-forward-outline"
+              ></ion-icon
+              ><ion-icon
+                class="arrow-back-outline"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <div class="answer"><p>Nu un hackaton coaie!!</p></div>
+          </div>
+          <div class="faq-question" id="question2">
+            <a class="faqlink" href="#question2"
+              >Ce este Coderun?<ion-icon
+                class="arrow-forward-outline"
+                name="arrow-forward-outline"
+              ></ion-icon
+              ><ion-icon
+                class="arrow-back-outline"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <div class="answer"><p>Nu un hackaton coaie!!</p></div>
+          </div>
+          <div class="faq-question" id="question3">
+            <a class="faqlink" href="#question3"
+              >Ce este Coderun?<ion-icon
+                class="arrow-forward-outline"
+                name="arrow-forward-outline"
+              ></ion-icon
+              ><ion-icon
+                class="arrow-back-outline"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <div class="answer"><p>Nu un hackaton coaie!!</p></div>
+          </div>
+          <div class="faq-question" id="question4">
+            <a class="faqlink" href="#question4"
+              >Ce este Coderun?<ion-icon
+                class="arrow-forward-outline"
+                name="arrow-forward-outline"
+              ></ion-icon
+              ><ion-icon
+                class="arrow-back-outline"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <div class="answer"><p>Nu un hackaton coaie!!</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+  <script type="text/javascript">
+    let progress = document.getElementById("progressbar");
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function () {
+      let progressHeight = (window.pageYOffset / totalHeight) * 100;
+      progress.style.height = progressHeight + "%";
+    };
+  </script>
+</html>

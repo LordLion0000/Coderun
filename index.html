@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexCSS.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geo:ital@1&family=Roboto:wght@100&display=swap");
+    </style>
+    <title>Coderun Placeholder</title>
+  </head>
+  <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div class="titlu"><h1 data-value="CODERUN">CODERUN</h1></div>
+    <div class="FAQBUTTON">
+      <a href="FAQ.html"
+        ><span></span>
+        <span></span>
+        <span></span>
+        <span></span>FAQ</a
+      >
+    </div>
+    <script src="indexJS.js"></script>
+    <script type="text/javascript">
+      let progress = document.getElementById("progressbar");
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function () {
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+      };
+    </script>
+  </body>
+</html>
