@@ -1,14 +1,30 @@
 body {
 
-    background-image: url('Fundal_Cladiri.png');
+    background-image: url('fundal_cladiri.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+@media only screen and (max-width: 425px)
+{
+   .logo img{
+    height: 50px;
+   }
+}
+@media only screen and (min-width: 425px) {
+    .logo img {
+        height: 100px;
+    }
+}
 .titlu {
-    position: relative;
+    position: relative;     
     z-index: -1;
     letter-spacing: 0cm;
     font-family: Geo;
@@ -18,10 +34,6 @@ body {
     border-radius: clamp(0.4rem, 0.75vw, 1rem);
     text-align: center;
 }
-h1:hover {
-    background-color: white;
-    color: black;
-}
 
 .FAQBUTTON{
    z-index: 1;
@@ -29,9 +41,7 @@ h1:hover {
    display: flex;
    justify-content: center;
    align-items: center;
-   min-height: 100vh;
    position: relative;
-   top: -350px;
 }
 
 a {
@@ -44,15 +54,16 @@ a {
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 1000;
     font-family: Geo;
     overflow: hidden;
     transition: 0.2s;
+    
 }
 
 a:hover{
  
-    color: #91005e;
+    color: #03045E;
     background: #FE02A7;
     box-shadow: 0 0 10px #FE02A7, 0 0 40px
         #FE02A7, 0 0 80px
