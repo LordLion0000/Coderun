@@ -23,6 +23,23 @@ body {
         height: 100px;
     }
 }
+.logocr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+    .logo img {
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .logo img {
+        height: 80px;
+    }
+}
 .titlu {
     position: relative;     
     z-index: -1;
