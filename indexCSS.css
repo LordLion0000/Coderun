@@ -33,6 +33,83 @@ display: flex;
         height: 250px;
     }
 }
+@media only screen and (max-width: 425px) {
+p2 {
+        color: white;
+        margin: 0;
+        font-family: Unbounded;
+        font-size: x-small;
+    }
+        p1 {
+            color: white;
+            margin-bottom: 2%;
+            font-family: Unbounded;
+            font-size: x-small;
+            padding: 0;
+            margin: 0;
+        }
+                .titlu1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 5vh;
+                }
+                                .button_jmek {
+                
+                                    position: relative;
+                                    display: inline-block;
+                                    padding: 15px 30px;
+                                    color: #FE02A7;
+                                    text-transform: uppercase;
+                                    letter-spacing: 4px;
+                                    text-decoration: none;
+                                    font-size: 40px;
+                                    font-weight: 1000;
+                                    font-family: Geo;
+                                    overflow: hidden;
+                                    transition: 0.2s;
+                
+                                }
+}
+
+@media only screen and (min-width: 425px) {
+p2 {
+        color: white;
+        margin: 0;
+        font-family: Unbounded;
+        font-size: large;
+    }
+        p1 {
+            color: white;
+            margin-bottom: 2%;
+            font-family: Unbounded;
+            font-size: large;
+            padding: 0;
+            margin: 0;
+        }
+                .titlu1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 10vh;
+                }
+                                .button_jmek {
+                
+                                    position: relative;
+                                    display: inline-block;
+                                    padding: 15px 30px;
+                                    color: #FE02A7;
+                                    text-transform: uppercase;
+                                    letter-spacing: 4px;
+                                    text-decoration: none;
+                                    font-size: 90px;
+                                    font-weight: 1000;
+                                    font-family: Geo;
+                                    overflow: hidden;
+                                    transition: 0.2s;
+                
+                                }
+}
 @media only screen and (max-width: 425px)
 {
    .logo img{
@@ -71,28 +148,8 @@ display: flex;
     text-align: center;
     margin-bottom: 10vh;
 }
-.titlu1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 10vh;
-}
 
 
-p2 {
-    color: white;
-    margin: 0;
-    font-family: Unbounded;
-    font-size: large;
-}
-p1{
-    color: white;
-    margin-bottom: 2%;
-    font-family: Unbounded;
-    font-size: large;
-    padding: 0;
-    margin: 0;
-}
 
 .FAQBUTTON{
    z-index: 1;
@@ -103,22 +160,7 @@ p1{
    position: relative;
 }
 
-.button_jmek {
- 
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #FE02A7;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 90px;
-    font-weight: 1000;
-    font-family: Geo;
-    overflow: hidden;
-    transition: 0.2s;
-    
-}
+
 
 .button_jmek:hover{
  
