@@ -109,6 +109,21 @@ section{
 .faq-question:target .faqlink .arrow-back-outline {
     display: block;
 }
+.buton{
+    position: relative;
+        padding: 15px 30px;
+        color: #FE02A7;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 1000;
+        font-family: Geo;
+        overflow: hidden;
+}
+.buton a{
+    color: #FE02A7;
+}
 .Titlu{
     text-align: center;
     color: #FE02A7;

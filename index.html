@@ -9,6 +9,15 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Geo:ital@1&family=Roboto:wght@100&display=swap");
     </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geo:ital@1&family=Roboto:wght@100&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&family=Geo:ital@1&family=Rationale&family=Roboto:wght@100&family=Sanchez&family=Unbounded:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Coderun Placeholder</title>
   </head>
   <body>
@@ -21,7 +30,16 @@
     </div>
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
-    <div class="titlu"><h1 data-value="CODERUN">CODERUN</h1></div>
+   <div class="titlu3"> <div class="titlu">
+    <div class="imagine_titlu">
+      <img src="CodeRun.png" alt="" />
+      </div>
+      <div class="titlu1">
+        <p2>18 aprilie - 23 aprilie</p2>
+
+        <p1>Check out our FAQ section by clicking below</p1>
+      </div>
+    </div>
     <div class="FAQBUTTON">
       <a class="button_jmek" href="FAQ.html"
         ><span></span>
@@ -38,5 +56,13 @@
         ><img src="tiktok-logo.png" alt=""
       /></a>
     </div>
+    <script type="text/javascript">
+      let progress = document.getElementById("progressbar");
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function () {
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+      };
+    </script>
   </body>
 </html>
