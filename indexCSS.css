@@ -21,11 +21,18 @@ display: flex;
     margin-top: 60px;
         padding: 10px 0;
 }
-.imagine_titlu img{
-    width: 900px;
+
+@media only screen and (max-width: 425px) {
+    .imagine_titlu img {
+        height: 100px;
+    }
 }
 
-
+@media only screen and (min-width: 425px) {
+    .imagine_titlu img {
+        height: 250px;
+    }
+}
 @media only screen and (max-width: 425px)
 {
    .logo img{
